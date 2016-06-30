@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/actionbar/actionbar.iml" filepath="$PROJECT_DIR$/actionbar/actionbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boradcastreceiver/boradcastreceiver.iml" filepath="$PROJECT_DIR$/boradcastreceiver/boradcastreceiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customview/customview.iml" filepath="$PROJECT_DIR$/customview/customview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/internetdownloadparctice/internetdownloadparctice.iml" filepath="$PROJECT_DIR$/internetdownloadparctice/internetdownloadparctice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multimediacompression/multimediacompression.iml" filepath="$PROJECT_DIR$/multimediacompression/multimediacompression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notification/notification.iml" filepath="$PROJECT_DIR$/notification/notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/processservice/processservice.iml" filepath="$PROJECT_DIR$/processservice/processservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servicedemo/servicedemo.iml" filepath="$PROJECT_DIR$/servicedemo/servicedemo.iml" />
+    </modules>
+  </component>
+</project>

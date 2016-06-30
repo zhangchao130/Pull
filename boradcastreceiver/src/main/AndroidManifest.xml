@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.lenono.boradcastreceiver">
+
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".BroadcastReceiverActivity01" />
+
+        <receiver android:name=".BroadcastService01">
+            <intent-filter android:priority="100">
+                <action android:name="mybroadcastrecevier" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".BroadcastService02">
+            <intent-filter android:priority="300">
+                <action android:name="mybroadcastrecevier" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".BroadcastService03">
+            <intent-filter android:priority="600">
+                <action android:name="mybroadcastrecevier" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".BroadcastServiceNotification">
+            <intent-filter>
+                <action android:name="notificationrecevier" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".BroadcastRecevierNotificationActivity01" />
+        <activity android:name=".BroadcastRecevierActivity02">
+
+        </activity>
+
+        <receiver android:name=".RemoteBroadcastReceiver">
+            <intent-filter>
+                <action android:name="remote" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".BroadcastReceiver_Call" />
+
+        <activity android:name=".BroadcastRecevierActivity_Call">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
