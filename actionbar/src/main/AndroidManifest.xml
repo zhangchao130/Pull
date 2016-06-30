@@ -10,18 +10,16 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".ActionBar02" />
-        <activity android:name=".ToolBarActivity">
-
-        </activity>
+        <activity android:name=".ToolBarActivity"></activity>
         <activity android:name=".ActionBar01" />
         <activity android:name=".ActionBar03">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Main2Activity"></activity>
     </application>
 
 </manifest>
