@@ -13,7 +13,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 
 public class PullToGridViewActivity extends AppCompatActivity {
-    String[] citys = {"bj", "sh", "jz", "zz", "ay", "wh", "xj", "ly", "xx"};
+    String[] citys = {"bj", "sh", "jz", "zz", "ay", "wh", "xj", "ly", "xx","xx"};
     PullToRefreshGridView pullToRefreshGridView;
     GridView gridView;
     LinkedList<String> linkedList;
