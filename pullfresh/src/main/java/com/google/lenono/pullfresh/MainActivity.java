@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     PullToRefreshListView pullToRefreshListView;
     ListView listView;
     LinkedList<String> linkedList;
-    String[] citys = {"bj", "sh", "jz", "zz", "ay", "wh", "xj", "ly", "xx"};
+    String[] citys = {"bj", "sh", "jz", "zz", "ay", "wh", "xj", "ly", "xx","ss"};
     ArrayAdapter<String> arrayAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
