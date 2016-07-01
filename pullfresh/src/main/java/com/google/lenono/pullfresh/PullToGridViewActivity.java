@@ -48,10 +48,10 @@ public class PullToGridViewActivity extends AppCompatActivity {
 
         @Override
         protected LinkedList<String> doInBackground(String... strings) {
-            if (strings[0].equals("up data")) {
-                linkedList.addAll(1,Arrays.asList(citys));
+            if (strings[0].equals("down data")) {
+                linkedList.addAll(0,Arrays.asList(citys));
                 return linkedList;
-            } else if (strings[0].equals("down data")) {
+            } else if (strings[0].equals("up data")) {
                 linkedList.addAll(Arrays.asList(citys));
                 return linkedList;
             }
