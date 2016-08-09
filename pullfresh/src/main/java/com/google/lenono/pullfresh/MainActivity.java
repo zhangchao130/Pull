@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
+import com.handmark.pulltorefresh.library.extras.SoundPullEventListener;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -17,8 +18,9 @@ public class MainActivity extends AppCompatActivity {
     PullToRefreshListView pullToRefreshListView;
     ListView listView;
     LinkedList<String> linkedList;
-    String[] citys = {"bj", "sh", "jz", "zz", "ay", "wh", "xj", "ly", "xx","ss"};
+    String[] citys = {"bj", "sh", "jz", "zz", "ay", "wh", "xj", "ly", "xx", "ss"};
     ArrayAdapter<String> arrayAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +31,16 @@ public class MainActivity extends AppCompatActivity {
         linkedList = new LinkedList<String>();
         linkedList.addAll(Arrays.asList(citys));
         arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, linkedList);
+//        SoundPullEventListener<ListView> soundListener = new SoundPullEventListener<ListView>(this);
+//        soundListener.addSoundEvent(PullToRefreshBase.State.PULL_TO_REFRESH, R.raw.pull_event);
+//        soundListener.addSoundEvent(PullToRefreshBase.State.RESET, R.raw.reset_sound);
+//        soundListener.addSoundEvent(PullToRefreshBase.State.REFRESHING, R.raw.refreshing_sound);
+//        pullToRefreshListView.setOnPullEventListener(soundListener);
+        SoundPullEventListener<ListView> soundPullEventListener=new SoundPullEventListener<>(this);
+        soundPullEventListener.addSoundEvent(PullToRefreshBase.State.PULL_TO_REFRESH,R.raw.pull_event);
+        soundPullEventListener.addSoundEvent(PullToRefreshBase.State.RESET,R.raw.reset_sound);
+        soundPullEventListener.addSoundEvent(PullToRefreshBase.State.REFRESHING, R.raw.refreshing_sound);
+        pullToRefreshListView.setOnPullEventListener(soundPullEventListener);
         listView.setAdapter(arrayAdapter);
 
         pullToRefreshListView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener2<ListView>() {

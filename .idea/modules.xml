@@ -4,13 +4,32 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/actionbar/actionbar.iml" filepath="$PROJECT_DIR$/actionbar/actionbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alipayforme/alipayforme.iml" filepath="$PROJECT_DIR$/alipayforme/alipayforme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android5/android5.iml" filepath="$PROJECT_DIR$/android5/android5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidaniation/androidaniation.iml" filepath="$PROJECT_DIR$/androidaniation/androidaniation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animat/animat.iml" filepath="$PROJECT_DIR$/animat/animat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/boradcastreceiver/boradcastreceiver.iml" filepath="$PROJECT_DIR$/boradcastreceiver/boradcastreceiver.iml" />
       <module fileurl="file://$PROJECT_DIR$/customview/customview.iml" filepath="$PROJECT_DIR$/customview/customview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpattern/designpattern.iml" filepath="$PROJECT_DIR$/designpattern/designpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/embeddedrqactivity/embeddedrqactivity.iml" filepath="$PROJECT_DIR$/embeddedrqactivity/embeddedrqactivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/handware/handware.iml" filepath="$PROJECT_DIR$/handware/handware.iml" />
       <module fileurl="file://$PROJECT_DIR$/internetdownloadparctice/internetdownloadparctice.iml" filepath="$PROJECT_DIR$/internetdownloadparctice/internetdownloadparctice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jclistview/jclistview.iml" filepath="$PROJECT_DIR$/jclistview/jclistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/multimediacompression/multimediacompression.iml" filepath="$PROJECT_DIR$/multimediacompression/multimediacompression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myhtml/myhtml.iml" filepath="$PROJECT_DIR$/myhtml/myhtml.iml" />
       <module fileurl="file://$PROJECT_DIR$/notification/notification.iml" filepath="$PROJECT_DIR$/notification/notification.iml" />
       <module fileurl="file://$PROJECT_DIR$/processservice/processservice.iml" filepath="$PROJECT_DIR$/processservice/processservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/servicedemo/servicedemo.iml" filepath="$PROJECT_DIR$/servicedemo/servicedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullfresh/pullfresh.iml" filepath="$PROJECT_DIR$/pullfresh/pullfresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/push/push.iml" filepath="$PROJECT_DIR$/push/push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/secreenadapter/secreenadapter.iml" filepath="$PROJECT_DIR$/secreenadapter/secreenadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servicedemo/servicedemo1.iml" filepath="$PROJECT_DIR$/servicedemo/servicedemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopcar/shopcar.iml" filepath="$PROJECT_DIR$/shopcar/shopcar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thridlogin/thridlogin.iml" filepath="$PROJECT_DIR$/thridlogin/thridlogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tzdemo/tzdemo.iml" filepath="$PROJECT_DIR$/tzdemo/tzdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vediodemo/vediodemo.iml" filepath="$PROJECT_DIR$/vediodemo/vediodemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view_library/view_library.iml" filepath="$PROJECT_DIR$/view_library/view_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webview/webview.iml" filepath="$PROJECT_DIR$/webview/webview.iml" />
     </modules>
   </component>
 </project>

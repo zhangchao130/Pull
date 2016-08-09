@@ -10,26 +10,64 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/actionbar" />
+            <option value="$PROJECT_DIR$/alipayforme" />
+            <option value="$PROJECT_DIR$/android5" />
+            <option value="$PROJECT_DIR$/androidaniation" />
+            <option value="$PROJECT_DIR$/animat" />
+            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/boradcastreceiver" />
             <option value="$PROJECT_DIR$/customview" />
+            <option value="$PROJECT_DIR$/designpattern" />
+            <option value="$PROJECT_DIR$/embeddedrqactivity" />
+            <option value="$PROJECT_DIR$/handware" />
             <option value="$PROJECT_DIR$/internetdownloadparctice" />
+            <option value="$PROJECT_DIR$/jclistview" />
             <option value="$PROJECT_DIR$/multimediacompression" />
+            <option value="$PROJECT_DIR$/myhtml" />
             <option value="$PROJECT_DIR$/notification" />
             <option value="$PROJECT_DIR$/processservice" />
+            <option value="$PROJECT_DIR$/pullfresh" />
+            <option value="$PROJECT_DIR$/push" />
+            <option value="$PROJECT_DIR$/secreenadapter" />
             <option value="$PROJECT_DIR$/servicedemo" />
+            <option value="$PROJECT_DIR$/shopcar" />
+            <option value="$PROJECT_DIR$/thridlogin" />
+            <option value="$PROJECT_DIR$/tzdemo" />
+            <option value="$PROJECT_DIR$/vediodemo" />
+            <option value="$PROJECT_DIR$/view_library" />
+            <option value="$PROJECT_DIR$/webview" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/actionbar" />
+            <option value="$PROJECT_DIR$/alipayforme" />
+            <option value="$PROJECT_DIR$/android5" />
+            <option value="$PROJECT_DIR$/androidaniation" />
+            <option value="$PROJECT_DIR$/animat" />
+            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/boradcastreceiver" />
             <option value="$PROJECT_DIR$/customview" />
+            <option value="$PROJECT_DIR$/designpattern" />
+            <option value="$PROJECT_DIR$/embeddedrqactivity" />
+            <option value="$PROJECT_DIR$/handware" />
             <option value="$PROJECT_DIR$/internetdownloadparctice" />
+            <option value="$PROJECT_DIR$/jclistview" />
             <option value="$PROJECT_DIR$/multimediacompression" />
+            <option value="$PROJECT_DIR$/myhtml" />
             <option value="$PROJECT_DIR$/notification" />
             <option value="$PROJECT_DIR$/processservice" />
+            <option value="$PROJECT_DIR$/pullfresh" />
+            <option value="$PROJECT_DIR$/push" />
+            <option value="$PROJECT_DIR$/secreenadapter" />
             <option value="$PROJECT_DIR$/servicedemo" />
+            <option value="$PROJECT_DIR$/shopcar" />
+            <option value="$PROJECT_DIR$/thridlogin" />
+            <option value="$PROJECT_DIR$/tzdemo" />
+            <option value="$PROJECT_DIR$/vediodemo" />
+            <option value="$PROJECT_DIR$/view_library" />
+            <option value="$PROJECT_DIR$/webview" />
           </set>
         </option>
       </GradleProjectSettings>

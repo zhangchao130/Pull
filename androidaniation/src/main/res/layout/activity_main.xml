@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.google.lenono.androidaniation.MainActivity">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/game002" />
+
+    <Button
+        android:id="@+id/animation_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="透明度动画" />
+    <Button
+        android:id="@+id/animation_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="渐变动画" />
+    <Button
+        android:id="@+id/animation_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="位移动画" />
+    <Button
+        android:id="@+id/animation_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="旋转动画" />
+    <Button
+        android:id="@+id/animation_btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多个动画" />
+</LinearLayout>

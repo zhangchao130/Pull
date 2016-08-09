@@ -5,9 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
+import android.widget.ListView;
 
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshGridView;
+import com.handmark.pulltorefresh.library.extras.SoundPullEventListener;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -29,6 +31,10 @@ public class PullToGridViewActivity extends AppCompatActivity {
         linkedList.addAll(Arrays.asList(citys));
         arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, linkedList);
         gridView.setAdapter(arrayAdapter);
+        SoundPullEventListener<ListView> soundPullEventListener=new SoundPullEventListener<>(this);
+        soundPullEventListener.addSoundEvent(PullToRefreshBase.State.PULL_TO_REFRESH,R.raw.pull_event);
+        soundPullEventListener.addSoundEvent(PullToRefreshBase.State.RESET,R.raw.reset_sound);
+        soundPullEventListener.addSoundEvent(PullToRefreshBase.State.REFRESHING, R.raw.refreshing_sound);
         pullToRefreshGridView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener2<GridView>() {
             @Override
             public void onPullDownToRefresh(PullToRefreshBase<GridView> refreshView) {

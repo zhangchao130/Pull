@@ -1,1 +1,4 @@
-include ':actionbar', ':notification', ':servicedemo', ':processservice', ':boradcastreceiver', ':internetdownloadparctice', ':multimediacompression', ':customview'
+include ':actionbar', ':notification', ':processservice', ':boradcastreceiver', ':internetdownloadparctice', ':multimediacompression', ':customview', ':pullfresh', ':servicedemo1', ':androidaniation', ':animat', ':webview', ':secreenadapter', ':vediodemo', ':jclistview', ':android5', ':handware', ':embeddedrqactivity', ':push', ':thridlogin', ':shopcar', ':designpattern', ':app', ':tzdemo', ':tzdemo', ':myhtml'
+include ':view_library'
+project(':servicedemo1').projectDir = new File('servicedemo')
+include ':alipayforme'
